@@ -1,18 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Operators from './Ariticles/Operators';
 
 const Detail = () => (
   <Switch>
-    <Route path='/operators' render={() => {
-      return (<h1>Operator</h1>)
-    }}/>
-    <Route path='/' render={() => {
-      return (
-        <div>
-
-        </div>
-      )
-    }}/>
+    <Route path='/posts/operators' render={() => <Operators/>}/>
+    <Route path='/' render={() => <div/>}/>
   </Switch>
 );
 

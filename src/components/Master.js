@@ -5,9 +5,9 @@ const Master = () => (
   <div>
     <h4>Posts:</h4>
     <ul>
-      <li><Link to='/operators'>Operators 2017-12-6</Link></li>
+      <li><Link to='/posts/operators'>Operators 2017-12-6</Link></li>
     </ul>
   </div>
 );
 
-export default Master;
+export default Master

@@ -1,10 +1,15 @@
 import { Component } from 'react';
 import renderCode from './renderCode';
+import { githubGist } from 'react-syntax-highlighter/styles/hljs';
 
 class DiffCode extends Component {
 
   render() {
-    return renderCode(this.props, 'diff');
+    return renderCode({
+      props: this.props,
+      language: 'diff',
+      style: githubGist
+    });
   }
 }
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, Collapse } from 'react-bootstrap';
-import { defaultMargin } from './constants';
 
 class CollapseDiv extends Component {
 
@@ -22,14 +21,15 @@ class CollapseDiv extends Component {
 
   render() {
     return (
-      <div style={{marginTop:defaultMargin}}>
+      <div>
         <Button
+          className='element'
           bsStyle={this.buttonBSStyle()}
           onClick={this.onClick}>
           {this.buttonTitle()}
         </Button>
         <Collapse in={this.state.isShow}>
-          <div style={{marginTop:defaultMargin}}>
+          <div>
             {this.props.children}
           </div>
         </Collapse>

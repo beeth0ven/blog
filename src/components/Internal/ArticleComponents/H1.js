@@ -5,7 +5,7 @@ class H1 extends Component {
     return (
       <div>
         <h1>{this.props.children}</h1>
-        <hr/>
+        <br/>
       </div>
     );
   }
@@ -16,7 +16,7 @@ class H2 extends Component {
     return (
       <div>
         <h2>{this.props.children}</h2>
-        <hr/>
+        <br/>
       </div>
     );
   }

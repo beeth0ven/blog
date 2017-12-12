@@ -30,7 +30,7 @@ export default (
   const rowsJSX = rows.map(rowJSX);
 
   return (
-    <Table bordered striped responsive className='element'>
+    <Table responsive className='element'>
       <thead>
       {headersJSX}
       </thead>

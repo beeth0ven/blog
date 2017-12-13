@@ -7,10 +7,10 @@ import Text from '../Internal/ArticleComponents/Text';
 import { OrderedList, List } from '../Internal/ArticleComponents/Lists';
 import Section from '../Internal/ArticleComponents/Section';
 import Table from '../Internal/ArticleComponents/Table';
-import { Image } from 'react-bootstrap';
+// import { Image } from 'react-bootstrap';
 
 const beeth0venLink = <a href="https://beeth0ven.cf">Beeth0ven</a>;
-const image = <Image src='https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png'/>;
+// const image = <Image src='https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png'/>;
 const text = <Text><b>Hello everyone</b>, I'm new to Rx and MVVM,
   so I hope I don't sound to stupid here {beeth0venLink}.
   I instantiate this collection as a driver by calling a method which uses a URLSession to fetch JSON from a url (<code>URLSession.shared.rx.json</code>),
